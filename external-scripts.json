@@ -9,5 +9,11 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
+  "hubot-tell",
+  "hubot-plusplus",
+  "hubot-seen",
+  "hubot-tell",
+  "hubot-outofcontext",
+  "hubot-devops-reactions",
   "hubot-youtube"
 ]
