@@ -9,6 +9,7 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
+  "hubot-frinkiac-me",
   "hubot-tell",
   "hubot-plusplus",
   "hubot-seen",
