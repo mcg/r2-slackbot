@@ -1,7 +1,7 @@
 [
   "hubot-diagnostics",
+  "hubot-auth",
   "hubot-help",
-  "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",

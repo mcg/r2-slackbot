@@ -56,7 +56,7 @@ get_data = (robot, msg, location, service, query, cb, lifetime, stack=0) ->
       return
     # get new data
     msg
-      .http("http://api.wunderground.com/api/#{process.env.HUBOT_WUNDERGROUND_API_KEY}/#{service}/q/#{encodeURIComponent query}.json")
+      .http("http://api.wunderground.com/api/#{process.env.HUBOT_WUNDERGROUND_API_KEY}/#{service}/q/#{encodeURI query}.json")
       .get() (err, res, body) ->
         # check for a non-200 response. cache it for some short amount of time && msg.send 'unavailable'
         data = JSON.parse(body)
@@ -123,4 +123,3 @@ ttl = (data) ->
 alternative_place = (item) ->
   return '' if item.country != 'US' || item.state == "" || item.city == ""
   return "#{item.state}/#{item.city.replace(/\s/g, '_')}"
-
