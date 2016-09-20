@@ -22,7 +22,7 @@
     "hubot-scripts": "^2.5.16",
     "hubot-seen": "^0.2.1",
     "hubot-shipit": "^0.1.1",
-    "hubot-slack": "^4.0.2",
+    "hubot-slack": "^4.0.5",
     "hubot-soon": "^1.0.0",
     "hubot-startup": "git://github.com/bouzuya/hubot-startup.git",
     "hubot-tell": "^1.2.3",
