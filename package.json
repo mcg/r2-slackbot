@@ -5,7 +5,7 @@
   "author": "Butterfat",
   "description": "Beep Beep Boop Boop",
   "dependencies": {
-    "hubot": "^2.9.3",
+    "hubot": "^2.19.0",
     "hubot-auth": "^1.2.0",
     "hubot-devops-reactions": "^1.0.2",
     "hubot-diagnostics": "0.0.1",
